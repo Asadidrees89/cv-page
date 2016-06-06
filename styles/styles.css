@@ -1,0 +1,427 @@
+*{
+	border: 0px dashed green;
+	z-index: 0;
+}
+
+							/*					GENERAL SETTINGS 						*/
+body{
+	background-color:#F0F0F0;
+	width:1000px;
+	margin: 0px auto;
+	position:relative;
+}
+
+							/*					HEADER STYLING							*/
+header{
+	
+	/*background-color:#0073e6;*/
+	background-color:RGB(46,116,181);
+	margin: 0px auto;
+	display: block;
+	position: fixed;
+	width: 1000px;
+	height: 150px;
+	border-radius: 5px;
+	z-index: 1;
+}
+
+#headertextbox{
+	background-color: #4A4A4A;
+	margin: 24px 0px;
+	width: 676.5px;
+	height:100px;
+	display:inline-block;
+
+}
+
+#headertextbox h1{
+	color:white;
+	position:relative;
+	display:block;
+	font-size: 49px;
+	margin:10px 10px 0px 15px;
+	padding:0px;
+	font-family:"Lato";
+}
+
+#headertextbox p{
+	color:white;
+	position:relative;
+	display:block;
+	font-size: 22px;
+	margin:-4px 15px;
+	padding:0px;
+	font-family:"Lato";
+}
+
+#mypic{
+	height: 151px;
+	width: 120px;
+	margin: -149px 0px 0px 676.5px;	
+	display: block;
+	position: relative;
+	border-left: 2px solid #F0F0F0;
+	border-right:2px solid #F0F0F0;
+
+}
+
+#contact{
+	display:inline-block;
+	position:absolute;
+	background-color: #4A4A4A;
+	margin: -125px 0px 0px 799.5px;
+	height: 100px;
+	width:200px;
+	border-radius: 0px 5px 5px 0px;
+}
+
+#contact-title{
+	margin:0px auto 0px auto;
+	color:white;
+	font-size: 20px;
+	text-align: center;
+	display:inline-block;
+	width:200px;
+	height: 43px;
+	font-weight: 900;
+	font-family:"Lato"
+}
+#contact img[src]{
+	width:18px;
+	height:18px;
+	display:inline-block;
+	margin: 7px 10px 0px 5px;
+}
+
+#whatsapp, #skype, #gmail, #facebook{
+	
+	height:30px;
+	width:100px;
+	display:inline-block;
+	position:absolute;
+}
+
+#whatsapp{
+	margin:3px 10px 0px 0px;
+}
+
+#skype{
+	margin:25px 10px 0px 0px;
+}
+
+#gmail{
+	margin:3px 10px 0px 100px;
+}
+
+#facebook{
+	margin:25px 10px 0px 100px;
+}
+#whatsapp p, #skype p, #gmail a[href], #facebook a[href]{
+	color:white;
+	display:inline;
+	position:absolute;
+	margin: 12px 0px;
+	font-size:10px;
+	text-decoration: none;
+}
+
+
+
+							/*				HEADER STYLING COMPLETE						*/
+
+							/*				ALL BARS POSITIONING						*/
+#academic-navbar{
+	padding-left:5px;
+	float:left;
+	width:325px;
+	margin: 150px 0px 0px 0px;
+	background-color:white;
+	position:absolute;
+	height:auto;
+}
+
+#objective-navbar{
+	padding-left:5px;
+	width:325px;
+	margin: 150px 335.5px;
+	background-color:white;
+	display:inline-block;
+	position:absolute;
+	height:auto;
+}
+
+#personal-navbar{
+	padding-left:5px;
+	position:absolute;
+	width:325px;
+	display:inline-block;
+	margin: 150px 670px;
+	background-color: white;
+	height:auto;
+}
+
+#c-topblock{
+	height:320px;
+}
+
+#c-midblock{
+	height:625px;
+
+	
+}
+
+#c-bottomblock{
+	display:block;
+	background-color: #FFFFFF;
+	width:1000px;
+	height:350px;
+	position:absolute;
+	margin-top:1100px;
+}
+
+#personal-interests{
+	height:210;
+}
+
+#pskills{
+	height:415;
+}
+
+							/*				ALL BARS POSITIONING COMPLETE				*/
+
+							/*				ALL BARS HEADING STYLES & SETTINGS			*/
+
+
+.academic-titles:hover{
+	background-color: RGB(50,130,200);
+}
+
+.academic-titles{
+	height: 50px;
+	color:white;
+	background-color: RGB(46,116,181);
+	display:block;
+	border-radius:10px 0px 10px 0px;
+	width:320px;
+	margin:0px;
+
+}
+
+
+.academic-titles p{
+	text-indent: 5px;
+	font-style: italic;
+	font-size: 21px;
+	padding:10px;
+	font-weight:900;
+}
+
+.graphicsphere{
+	background-color: RGB(46,116,181);
+	border-radius: 65px;
+	margin: -73.5px 265px;
+	height: 65px;
+	width: 65px;
+}
+.graphicsphere img[src]{
+	width:35px;
+	height:35px;
+	margin: 15px 17px;
+}
+
+#skills{
+	height: 50px;
+	color:white;
+	background-color: RGB(46,116,181);
+	display:block;
+	border-radius:10px 10px 10px 10px;
+	width:1000px;
+	margin:0px;
+
+}
+
+#skills .graphicsphere{
+	background-color: RGB(46,116,181);
+	border-radius: 65px;
+	margin: -73.5px 940px;
+	height: 65px;
+	width: 65px;
+}
+#skills .graphicsphere img[src]{
+	width:35px;
+	height:35px;
+	margin: 15px 17px;
+}
+
+#qualification .graphicsphere img[src]{
+width:65px;
+height:65px;
+margin: 2px 5px;
+
+}
+.academic-headings-2{
+	background-color:#bbbbbb;
+	color:#0073e6;
+	text-indent: 5px;
+	width:320px;
+	font-weight:900;
+	font-size:17px;
+	display:block;
+}
+
+h3{
+	background-color:#bbbbbb;
+	color:#0073e6;
+	text-indent: 5px;
+	width:320px;
+	font-weight:900;
+	font-size:17px;
+	display:block;
+	margin:0px;
+}
+
+.academic-headings-1{
+	font-weight: 800;
+	font-family:"Lato";
+	height:40px;
+	margin:0px;
+	padding-left:5px;
+}
+
+.academic-headings-1 span{
+	font-size:12px;
+}
+
+.biodata span{
+	font-family:"Lato";
+	font-weight:800;
+	color:#0073e6;
+}
+
+#projects-description ul li span{
+	font-family:"Lato";
+	font-weight:800;
+	color:#0073e6;
+}
+
+
+							/*				ALL BARS HEADING STYLES & SETTINGS DONE		*/
+							
+
+							/*				GENERAL TEXT STYLING						*/
+.academic-descriptions, .biodata{
+	padding:0px 15px 0px 5px;
+	font-size: 13px;
+	text-align: justify;
+	margin-top: 2px;
+	}
+
+#projects-description ul{
+	font-size: 13px;
+	text-align: justify;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+#projects-description ul li{
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+
+}
+
+#objective-details p, .biodata{
+	font-size:16px;
+}
+#c-topblock .academic-headings-1, #objective-details p, .biodata{
+	margin-top:20px;
+}
+							/*				GENERAL TEXT STYLING DONE					*/
+							
+
+							/*	PROFESSIONAL SKILLS & PERSONAL INTERESTS STATS STYLING	*/
+
+
+#skills-table{
+	margin: 30px 0px 0px 10px;
+}
+
+#skills-table tr td img[src]{
+	width:90px;
+	height:80px;
+	display:inline-block;
+}
+
+#skills-table td{
+	width: 100px;
+	height: 110px;
+}
+
+
+
+#personal-interests p{
+	margin-bottom:5px;
+	display:block;
+	height:22.5px;
+	width:8em;
+	font-family:"Lato";
+	padding:0px 0px 0px 5px;
+	font-weight:800;
+	
+}
+
+#personal-interests img[src]{
+	display:inline;
+	height: 22.5px;
+	width:150px;
+	margin: -28px 10px 5px 8em;
+	position:absolute;
+
+}
+#personal-skills{
+	
+	display:inline-block;
+	position:relative;
+	width: 325px;
+	margin-top:20px;
+	margin-bottom:15px;
+}
+
+#personal-skills p{
+	margin-top: 0px;
+
+}
+
+#pskills{
+	position:absolute;
+}
+
+#pskills p{
+	display:inline;
+	margin-top:0px;
+	margin-bottom: 0px;
+	padding:5px;
+	width:3em;
+	height:25px;
+	position:absolute;
+}
+
+#pskills img[src]{
+	width: 310px;
+	height: 27px;
+	display: inline-block;
+	margin:2px 2px 0px 4.25em;
+
+}
+
+#stats2 img[src]{
+	width: 315px;
+	height: 25px;
+	display: inline-block;
+	margin:2px 2px 0px 5px;
+
+
+
+}
+
+						/*	PROFESSIONAL SKILLS & PERSONAL INTERESTS STATS STYLING DONE	*/
